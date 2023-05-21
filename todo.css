@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: red;
+    color: black;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 49px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font: size 1.3rem;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+
+.container {
+    min-height: 70vh;
+}
+
+#progressbar {}
